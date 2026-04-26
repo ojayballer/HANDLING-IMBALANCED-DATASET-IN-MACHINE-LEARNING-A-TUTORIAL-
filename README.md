@@ -112,8 +112,8 @@ accuracy                           0.78      1407
 ### The Problem is Clear
 
 The model has **78% accuracy**, which sounds good until you look deeper:
-- Non-churners (class 0): 0.86 F1-score, 93% recall ✅
-- Churners (class 1): 0.49 F1-score, **39% recall** ❌
+- Non-churners (class 0): 0.86 F1-score, 93% recall 
+- Churners (class 1): 0.49 F1-score, **39% recall** 
 
 The model is missing **61% of churners**. This is unacceptable for a churn prediction system.
 
@@ -157,7 +157,7 @@ accuracy                           0.74       748
 ### Analysis
 
 - Accuracy dropped from 78% to 74%, but that's okay
-- Churner recall jumped from **39% to 80%** 🎯
+- Churner recall jumped from **39% to 80%** 
 - Both classes now have similar F1-scores (0.73 vs 0.76)
 - The model is much more balanced and useful for business decisions
 
@@ -202,8 +202,7 @@ accuracy                           0.76      2066
 
 ### Analysis
 
-- Churner recall: **88%** (best so far!) 🔥
-- Churner F1-score: 0.78 (significantly improved from baseline's 0.49)
+- Churner recall: **88%** (best so far!)   -Churner F1-score: 0.78 (significantly improved from baseline's 0.49)
 - Non-churner precision: 0.84 (still strong)
 - The model finds almost 9 out of 10 churners
 
@@ -296,7 +295,7 @@ accuracy                           0.65      1407
 
 ### Analysis
 
-- Churner recall: **14%** (worse than baseline!) ❌
+- Churner recall: **14%** (worse than baseline!) 
 - Churner F1-score: 0.18 (terrible)
 - Accuracy: 65% (lowest of all methods)
 - **The ensemble failed for this dataset**
